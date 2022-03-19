@@ -1,0 +1,400 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color:gray;
+    line-height: 30px;
+    padding: 0 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.container-fluid {
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .coloured-section{
+    background-color:#A9A9A9;
+    color: #000000;
+  }
+  
+  .white-section{
+    background-color: #fff;
+  }
+  
+  
+  
+  
+  /* Heading */
+  
+  
+  
+  
+  /* Navigation Bar */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat-light";
+  }
+  
+
+
+/* .navbar .logo{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+
+
+.navbar .logo{
+    float: left;
+    padding-left: 150px; */
+}
+
+
+.navbar ul{
+    float: right;
+    padding-right: 130px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+   
+}
+
+.navbar ul li a:hover{
+    color: green;
+
+}
+
+.navbar ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 20px; 
+    
+}
+
+.navbar-2 ul li:hover{
+    background-color: blue;
+    border-radius: 4px;
+  
+}
+
+.navbar-2 {
+    width: 100%;
+    height: 100px;
+    background-color:white;
+    line-height: 100px;
+    padding: 0 100px;
+    /* position: fixed; */
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-2 .logo-2{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    float: left;
+    padding-left: 71px;
+    
+}
+
+.navbar-2 ul {
+    float: right;
+    padding-right: 0px;
+    
+}
+
+.navbar-2 ul li{
+    display: inline-block;
+    list-style: none;
+    float: left;
+    
+}
+
+.navbar-2 ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 70px;
+    
+}
+
+.navbar-2 ul li a:hover{
+    background-color: blue;
+}
+
+.slash {
+    font-size: 30px;
+    font-weight: 1;
+    color: gray;
+}
+
+.ind {
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.brdr:hover{
+    background-color: blue;
+}
+
+
+/* .menu{
+    position: absolute;
+} */
+
+
+
+.content-4{
+
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.content-4 p{
+    font-size: 30px;
+    color: blue;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    .top-list {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+.content-5 .col{
+    height: 300px;
+    background-color: blue;
+    margin-top: 30px;
+}
+  
+  
+
+  h6{
+      color: white;
+      text-align: center;
+      padding-top: 60px;
+
+  }
+
+  .content-5 p{
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.2;
+      width: 100%;
+      padding-top: 30px;
+      padding-left: 100px;    
+      
+  }
+
+  .content-5 a{
+      text-align: center;
+      font-size: ;
+      color: white;
+  }
+
+  .content-5 .btn{
+      background-color: green;
+      margin-left: 100px;
+  }
+
+  .content-5 img{
+    height: 300px;
+    
+     
+  }
+
+  @media screen (min-width: 1280px) {
+      .content-5 {
+        font: 1em sans-serif;
+      }
+  }
+
+  @media screen (min-width:480px) {
+      .content-5{
+        
+      }
+  }
+
+
+  .text{
+      padding-top: 30px;
+      margin-left: 150px;
+      line-height: 40px;
+  }
+
+  .img1{
+      padding-left: 150px;
+      padding-top: 30px;
+  }
+  .img2{
+      padding-top: 30px;
+  }
+.img3{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.img4{
+    padding-top: 30px;
+}
+
+.mg-banner{
+    position: relative;
+   
+   
+}
+
+
+.img-desc{
+    padding-left: 150px;
+position: absolute;
+    bottom: 0px;
+   
+    
+    text-align: center;
+  
+}
+
+.img-desc p{
+    font-size: 30px;
+    font-weight: 700;
+    height: 60px;
+    bottom: 20px;
+    color: white;
+    padding-left: 15px;
+    
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.img-desc3 p{
+    font-size: 23px;
+    font-weight: 700;
+    height: 60px;
+    bottom: 20px;
+    color: white;
+    padding-left: 15px;
+    
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.img-desc3{
+    padding-left: 150px;
+    position: absolute;
+        bottom: 0px;
+       
+        
+        text-align: center;
+}
+
+.img-desc4 p{
+    font-size: 23px;
+    font-weight: 700;
+    height: 60px;
+    bottom: 20px;
+    color: white;
+  text-align: left;
+    
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.img-desc4{
+    padding-left: 10px;
+    position: absolute;
+        bottom: 0px;
+        
+        text-align: center;
+}
+
+
+.img-desc0 p{
+    font-size: 18px;
+    font-weight: 700;
+    height: 60px;
+    bottom: 20px;
+    color: white;
+  text-align: left;
+    
+    text-align: center;
+  
+}
+.img-desc h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.img-desc0{
+    padding-left: 10px;
+    position: absolute;
+        top: 180px;
+        left: 10px;
+        width: 60%;
+        text-align: center;
+}
+
+.img-desc0 .btn{
+    background-color: green;
+}
+
+.spa3{
+    width: 100px;
+}
+
+.spa2{
+    width: 100px;
+}
+
+
+.foot li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.foot li a:hover{
+    color: green;
+    text-decoration: none;
+}
+
+
+
+
